@@ -1,0 +1,22 @@
+nav
+{
+	z-index:10;
+	position: sticky;
+	background: #3e4b0e;
+	width: auto;
+	height: 60px;
+	margin: -8px;
+	margin-bottom: 0px;
+	top: 0px;
+}
+
+.nav-flex
+{
+	margin: -8px;
+	margin-bottom: 0px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	align-items: left;
+	flex-wrap: nowrap;
+}
