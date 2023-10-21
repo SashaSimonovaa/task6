@@ -1,4 +1,4 @@
-nav
+/*nav
 {
 	z-index:10;
 	position: sticky;
@@ -19,4 +19,10 @@ nav
 	flex-direction: row;
 	align-items: left;
 	flex-wrap: nowrap;
+}*/
+
+img
+{
+ width: 30px;
+ height: 30px;
 }
