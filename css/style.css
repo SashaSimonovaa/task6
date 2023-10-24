@@ -1,12 +1,17 @@
+body
+{
+	overflow: hidden;
+}
+
 nav
 {
 	z-index:10;
 	position: sticky;
 	background: #a9c3ff;
-	width: 101%;
+	width: auto;
 	height: 60px;
-	margin: -8px;
 	margin-bottom: 0px;
+	margin: -8px;
 	top: 0px;
 }
 
@@ -32,7 +37,6 @@ button
 	font-size: 120%;
 	font-family: cursive;
 	position: relative;
-	left: 30px;
 	border-top-left-radius: 12px;
 	border-top-right-radius: 12px;
 	transition: all 0.5s;
@@ -54,8 +58,8 @@ button.view
 
 img
 {
- width: 30px;
- height: 30px;
+	width: 30px;
+	height: 30px;
 }
 
 .logo
