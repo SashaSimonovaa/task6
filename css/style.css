@@ -102,14 +102,19 @@ img
 
 footer
 {
-	position: fixed;
 	background: #201f28;
-	width: 100%;
-	height: 100px;
-	margin-bottom: 0px;
+	width: auto;
+	height: 60px;
 	margin: -8px;
 	bottom: 3px;
 	color: rgb(173, 182, 235);
+}
+
+.footer-img
+{
+	position: absolute;
+	right: 5px;
+	bottom: 13px;
 }
 
 ul
@@ -186,7 +191,7 @@ hr
 
 .port-button:hover
 {
-	background: rgb(173, 182, 235);
+	background: #adb6eb;
 	color: #ece4f1;
 	opacity: 1;
 	right: 0;
@@ -195,10 +200,15 @@ hr
 .about-me-img
 {
 	position: absolute;
-	right: 150px;
-	top: 190px;
+	right: 0px;
+	top: 30px;
 	width: 200px;
 	height: 200px;
+}
+
+.about-me-img.two
+{
+	left: 0px;
 }
 
 table 
