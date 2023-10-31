@@ -94,7 +94,8 @@ img
 
 .wrapper
 {
-	max-width: 1200px;
+	height: 250px;
+	max-width: 1400px;
 	margin-left: 100px;
 	margin-right: 100px;
 }
@@ -132,7 +133,6 @@ hr
 	background-image: url(../img/header2.png);
 	height: 250px;
 	margin: -8px;
-	position: relative;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -151,8 +151,6 @@ hr
 	color:#201f28;
 	transition: all 0.5s;
 	cursor: pointer;
-	position: relative;
-	bottom: -50px;
 	height: 30px;
 }
 
@@ -175,6 +173,7 @@ hr
 .port-button
 {
 	margin-left: 590px;
+
 	border: 0px;
 	border-radius: 12px;
 	text-align: center;
@@ -188,7 +187,7 @@ hr
 .port-button:hover
 {
 	background: rgb(173, 182, 235);
-	color: rgb(236, 228, 241);
+	color: #ece4f1;
 	opacity: 1;
 	right: 0;
 }
@@ -196,8 +195,42 @@ hr
 .about-me-img
 {
 	position: absolute;
-	right: 100px;
-	top: 180px;
-	width: 100px;
-	height: 100px;
+	right: 150px;
+	top: 190px;
+	width: 200px;
+	height: 200px;
 }
+
+table 
+{
+	margin-top: 40px;
+	border-collapse: collapse;
+	color: #201f28;
+	border: 2px solid rgb(173, 182, 235);
+	width: 100%;
+}
+
+th
+{
+	color: rgb(173, 182, 235);
+	background: #201f28;
+	padding: 10px;
+	text-align: left;
+}
+
+td 
+{
+	padding: 10px;
+	border: 2px solid rgb(173, 182, 235);
+}
+
+tr:nth-child(odd) 
+{
+	background: rgb(173, 182, 235);
+}
+
+tr:nth-child(even) 
+{
+	background: #ece4f1;
+}
+  
