@@ -243,4 +243,35 @@ tr:nth-child(even)
 {
 	background: #ece4f1;
 }
-  
+
+.table-comp
+{
+	width: 100%;
+	border-spacing: 0 10px;
+	color: #201f28;
+	text-align: justify;
+}
+
+.td-comp
+{
+	padding: 10px;
+	border-bottom: 2px solid #201f28;
+	border-top: 2px solid #201f28;
+}
+
+.td-comp:first-child
+{
+	border-left: 2px solid #201f28;
+	width: 130px;
+	height: 130px;
+}
+
+.td-comp:last-child
+{
+	border-right: 2px solid #201f28;
+}
+
+.tr-comp 
+{
+	background: #ece4f1;
+}
