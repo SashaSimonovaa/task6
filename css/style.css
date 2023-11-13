@@ -178,7 +178,6 @@ hr
 .port-button
 {
 	margin-left: 590px;
-
 	border: 0px;
 	border-radius: 12px;
 	text-align: center;
@@ -216,7 +215,7 @@ table
 	margin-top: 40px;
 	border-collapse: collapse;
 	color: #201f28;
-	border: 2px solid rgb(173, 182, 235);
+	border: 2px solid #201f28;
 	width: 100%;
 }
 
@@ -234,6 +233,16 @@ td
 	border: 2px solid rgb(173, 182, 235);
 }
 
+td:first-child
+{
+	width: 130px;
+}
+
+td:last-child
+{
+	width: 500px;
+}
+
 tr:nth-child(odd) 
 {
 	background: rgb(173, 182, 235);
@@ -244,34 +253,90 @@ tr:nth-child(even)
 	background: #ece4f1;
 }
 
+.img-portf
+{
+	width: 80px;
+	height: 80px;
+}
+
 .table-comp
 {
+	margin-top: 0px;
+	border-collapse: collapse;
+	color: rgb(173, 182, 235);
+	border: none;
 	width: 100%;
-	border-spacing: 0 10px;
-	color: #201f28;
-	text-align: justify;
+}
+
+.th-comp
+{
+	color: rgb(173, 182, 235);
+	background: none;
+	padding: 10px;
+	text-align: center;
 }
 
 .td-comp
 {
+	padding: 0px;
+	border: none;
+}
+
+.td-comp:nth-child(odd) 
+{
+	width: 20%;
+}
+
+.td-comp:nth-child(even) 
+{
+	width: 20%;
+}
+
+.th-comp:nth-child(odd) 
+{
+	background: none;
+}
+
+.th-comp:nth-child(even) 
+{
+	background: none;
+}
+
+form
+{
+	margin-left: 300px;
+	margin-right: 300px;
 	padding: 10px;
-	border-bottom: 2px solid #201f28;
-	border-top: 2px solid #201f28;
+	border: 2px solid #201f28;
+	border-radius: 12px;
+	background: rgb(173, 182, 235);
 }
 
-.td-comp:first-child
+.table-con
 {
-	border-left: 2px solid #201f28;
-	width: 130px;
-	height: 130px;
+	margin-top: 0px;
+	border-collapse: separate;
+	border-spacing: 30px;
+	color: rgb(173, 182, 235);
+	border: none;
+	width: 100%;
 }
 
-.td-comp:last-child
+.td-con
 {
-	border-right: 2px solid #201f28;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid #201f28;
+	border-radius: 12px;
+	background: #201f28
 }
 
-.tr-comp 
+.td-con:nth-child(odd) 
 {
-	background: #ece4f1;
+	width: 33%;
+}
+
+.td-con:nth-child(even) 
+{
+	width: 33%;
 }
